@@ -142,6 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
       "name": _nome,
       "job": _job.text
     });
+    
     print(response.data.toString());
     setState(() {
       _nome = "Nome do Usuário";
